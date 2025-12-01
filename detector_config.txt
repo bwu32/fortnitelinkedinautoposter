@@ -1,0 +1,5 @@
+generate_immediately=True
+request_extra_details=False
+review_later=False
+personality_mode=corporate_jargon
+linkedin_automation=semi-auto
