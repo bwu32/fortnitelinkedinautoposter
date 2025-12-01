@@ -128,10 +128,10 @@ Keep it to 3-4 paragraphs with a winking tone throughout."""
             
             post_text = response.choices[0].message.content
             
-            # Add signature with placeholder for hyperlink
-            # The LinkedIn poster will convert this to an actual hyperlink
-            post_text += "\n\n---\nQuality content brought to you by the Fortnite LinkedIn Auto-Poster"
-            post_text += "\nhttps://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            # Add signature with hyperlink
+            # Note: LinkedIn uses plain URLs in text, the link will auto-format
+            post_text += "\n\n---\nquality content brought to you by the Fortnite LinkedIn Auto-Poster"
+            post_text += "\nhttps://github.com/bwu32/fortnitelinkedinautoposter"
             
             return post_text
             
