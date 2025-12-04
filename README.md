@@ -23,8 +23,8 @@ Turn your Fortnite wins into professional LinkedIn content. Automatically detect
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/fortnite-linkedin-autoposter.git
-cd fortnite-linkedin-autoposter
+git clone https://github.com/bwu32/fortnitelinkedinautoposter.git
+cd fortnitelinkedinautoposter
 ```
 
 ### Step 2: Install Python Dependencies
